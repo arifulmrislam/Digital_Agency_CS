@@ -5,6 +5,7 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    /* border:1px solid #f52c2c; */
 }
 .btn {
     padding: 10px 35px;
@@ -12,6 +13,9 @@
     font-size: 16px;
     margin: 5px;
     border-radius: 2px;
+}
+.primary {
+    color: #f52c2c;
 }
 /************************ Common styles end ************************/
 
@@ -84,10 +88,8 @@ p {
     font-weight: 900;
     color: white;
 }
-.title-digital{
-    color: #f52c2c;
-}
-.dexcription {
+
+.description {
     font-size: 20px;
     color: white;
     padding: 5px;
@@ -96,12 +98,242 @@ p {
     margin-bottom: 5px;
 }
 
-.button {
-    padding: 5px;
-}
-
-.btn-more {
+.btn-discover {
     background-color: rgb(245, 44, 44);
     color: white;
 }
 /**************************************** Banner style End  ******************************/
+/*************************** Service style start ********************************/
+.service-section {
+    width: 97.3%;
+    height: 100vh;
+    background-image: url("./asset/image/footer-bg.png"), linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-container {
+    width: 50%;
+}
+
+.btn-service {
+    color: gray;
+    border-radius: 20px;
+}
+
+.service-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.service-description {
+    font-size: 20px;
+    width: 50%;
+    padding: 10px;
+}
+
+.service-note {
+    font-size: 20px;
+    padding-left: 25px;
+    /* width: 50%; */
+}
+
+.service-author-container {
+    display: flex;
+}
+
+.service-author {
+    display:flex;
+    align-items: center;
+    padding: 20px;
+}
+.author-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.author-detail{
+    padding: 20px;
+}
+.line {
+    background-color: rgb(232, 35, 35);
+    height: 100px;
+    width: 0.5px;
+}
+.btn-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.btn-details {
+    color: red;
+    border-radius: 20px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.service-imgs-container {}
+
+.services {}
+
+.service-up {
+    display: flex;
+    margin-right: 50px;
+}
+
+.service {
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 4px 4px 8px rgb(26, 24, 24);
+    width: 200px;
+    height: 200px;
+    color:black;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.service-logo {
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.service-down {
+    display: flex;
+    margin-right: 50px;
+}
+
+/*************************** Service style end ********************************/
+/*************************** Appointment style start ********************************/
+.appointment-section{
+    width: 75%;
+    padding: 15px;
+    background-color: #f52c2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: -80px;
+    color: white;
+}
+.phone-call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-right: 2px solid gray;
+    width: 50%;
+}
+.call-icon{
+    width: 100px;
+    padding: 15px;
+}
+.appoinment-description{
+    padding: 10px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.appointment-button {
+    padding: 10px;
+}
+
+.appointment-button button {
+    padding: 15px 35px;
+    border-radius: 25px;
+    border: none;
+    white-space: nowrap;
+}
+/* ****************************************Appointment style end **************************/
+/***************************************** Blog style start ******************************/
+.blog-head{
+    width:75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.blog-card-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+}
+.blog-card{
+    width: 25%;
+    /* padding: 15px; */
+    box-shadow: 4px 4px 8px gray;
+    /* border-radius: 20px; */
+    /* background-color: red; */
+    margin: 15px;
+    border-radius: 15px;
+}
+.blog-img{
+    width: 100%;
+    border-radius: 15px;
+}
+.blog-headline, .blog-detail{
+    margin: 20px;
+}
+.blog-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+.description-blog{
+    font-size: 20px;
+    width: 70%;
+    margin: auto;
+}
+/***************************************** Blog style end ******************************/
+/***************************************** Footer style start ******************************/
+footer{
+    width: 100%;
+    height: 70vh;
+    background-image: url(./asset/image/footer-bg.png), linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    color: white;
+    line-height: 1.3em;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    height: 60vh;
+    margin: 0 auto;
+    border-bottom: 1px solid gray;
+}
+.logo-box{
+    width: 25%;
+}
+
+.logo-box img{
+    width: 170px;
+}
+.logo-icons{
+    margin-top: 20px;
+}
+.fa-solid{
+    margin-right: 7px;
+}
+
+.fa-brands{
+    margin: 10px;
+    font-size: 20px;
+}
+.copy{
+    text-align: center;
+    padding: 15px;
+}
+.footer-title{
+    margin-bottom: 30px;
+    font-size: 16px;
+}
